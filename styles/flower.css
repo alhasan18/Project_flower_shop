@@ -10,14 +10,36 @@
 .text-primary {
   color: rgba(39, 39, 39, 0.6);
 }
-.button-primary{
+
+.button-primary {
   background-color: rgba(229, 84, 115, 1);
   padding: 15px 30px;
-  border-radius: 6px ;
+  border-radius: 6px;
   border: none;
   color: #fff;
-  
+  cursor: pointer;
+
 }
+
+.button-primary:hover {
+  background-color: rgb(175, 21, 55);
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: rgba(39, 39, 39, 1);
+  margin-bottom: 15px;
+
+}
+
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto 30px;
+
+}
+
 /* header related style */
 
 header {
@@ -41,10 +63,56 @@ header {
   max-width: 530px;
   font-size: 60px;
 }
-.banner-text *{
+
+.banner-text * {
   margin-bottom: 20px;
 }
-.banner-img img{
+
+.banner-img img {
   width: 100%;
   vertical-align: bottom;
+}
+
+/* section related style */
+
+.section-container {
+  max-width: 1440px;
+  width: 75%;
+  margin: 0 auto;
+  padding: 135px 0;
+}
+
+.section-content {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.flower {
+  background-color: rgba(167, 33, 98, 0.15);
+  gap: 20px;
+  border-radius: 225px 225px 0 0;
+  height: 500px;
+  padding: 30px 15px 0px;
+  display: flex;
+  align-items: end;
+
+}
+
+.flower img {
+  width: 100%;
+  
+
+}
+ #pink{
+  background: rgba(167, 33, 98, 0.15); 
+  
+}
+ #blue{
+  background: rgba(5, 151, 160, 0.15);
+
+}
+ #green{
+  background: rgba(71, 125, 17, 0.15);
+
 }
