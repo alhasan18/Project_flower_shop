@@ -9,6 +9,7 @@
 /* generel style */
 .text-primary {
   color: rgba(39, 39, 39, 0.6);
+  line-height: 30px
 }
 
 .button-primary {
@@ -162,3 +163,38 @@ header {
   line-height: 35px;
   margin-top: 18px;
 }
+/* hot deal related style */
+#hot-deal{
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-container{
+  max-width: 1440px;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 75px 0;
+  
+  
+}
+.hot-deal-text *{
+
+  margin-bottom: 18px;
+  }
+  .hot-deal-text{
+    
+    max-width: 500px;
+    text-align: center;
+    
+    
+    
+  }
+  #hot-deal{
+    margin-bottom: 100px;
+    
+  }
+  #off {
+    color: #E55473;
+  }
