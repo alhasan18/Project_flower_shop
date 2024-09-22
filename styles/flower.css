@@ -167,6 +167,7 @@ header {
 /* hot deal related style */
 #hot-deal {
   background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 100px;
 }
 
 .hot-deal-container {
@@ -195,11 +196,24 @@ header {
 
 }
 
-#hot-deal {
-  margin-bottom: 100px;
-
-}
 
 #off {
   color: #E55473;
+}
+
+/* insta section related style */
+.insta-container {
+  max-width: 1440px;
+  width: 75%;
+  margin: 0 auto 95px;
+}
+
+.insta-pic {
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+.insta-flower {
+  max-width: 342px;
 }
