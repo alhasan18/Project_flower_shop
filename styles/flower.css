@@ -217,3 +217,52 @@ header {
 .insta-flower {
   max-width: 342px;
 }
+#newsletter{
+  max-width: 1440px;
+  width: 75%;
+  margin: 0 auto 95px;
+}
+.newsletter-container{
+  background-image: url('../../flower-shop-main/images/Rectangle_9.png');
+  padding: 95px 0;
+
+}
+#newsletter form{
+  max-width: 850px;
+  margin: 36px auto;
+  display: flex;
+  gap: 10px;
+}
+#newsletter form input{
+  flex-grow: 1;
+  border: none;
+  border-radius: 8px;
+  background: #FFF;
+  padding: 18px;
+  outline: none;
+}
+footer{
+  background: #111010;
+  padding: 96px 0;
+}
+.footer-title{
+  font-size: 36px;
+  font-weight: 800;
+  color: #E55473;
+  margin-bottom: 18px;
+}
+.footer-text{
+color: rgba(255, 255, 255, 0.90);
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 24px;
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+}
+.footer-title span{
+  color: #fff;
+}
